@@ -33,7 +33,7 @@ with DAG(
 
         # Settings
         kaggle_dataset = "muthuj7/weather-dataset"
-        output_dir = "/tmp/weather_data" # Guys don't forget to change to ure directory to make it works on ur pc
+        output_dir = "/tmp/weather_data" 
         os.makedirs(output_dir, exist_ok=True)
 
         # Download dataset
